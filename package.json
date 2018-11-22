@@ -1,0 +1,37 @@
+{
+    "title": "Apex",
+    "name": "lanima-apex-theme",
+    "version": "4.1.1",
+    "description": "Built in using bootstrap",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://lanima.lv",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business/issues",
+        "email": "lanima@inbox.lv"
+    },
+    "license": "MIT",
+    "author": "lanima",
+    "contributors": [
+        "lanima (https://lanima.lv)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.1.1",
+        "font-awesome": "^4.7.0",
+        "jquery": "3.3.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.24.5",
+        "gulp": "^3.9.1"
+    }
+}
