@@ -13,7 +13,7 @@
     ],
     "homepage": "https://lanima.lv",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business/issues",
+        "url": "https://github.com/lanimaLv/oilbergs/issues",
         "email": "lanima@inbox.lv"
     },
     "license": "MIT",
@@ -23,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-modern-business.git"
+        "url": "https://github.com/lanimaLv/oilbergs"
     },
     "dependencies": {
         "bootstrap": "4.1.1",
