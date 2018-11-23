@@ -33,7 +33,7 @@ ul li {
 }
 
 .jumbotron {
-  background-color: #2d2d2d;
+  background-color: #66cdaa;
   color: white;
 }
 
@@ -43,4 +43,8 @@ ul li {
 
 #jumbo {
   padding: 10%;
+}
+
+.intro-text {
+  font-size: 4rem;
 }
