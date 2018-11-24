@@ -50,6 +50,9 @@
 }
 
 
+#choice h3 a {
+    text-decoration: none;
+}
 
 #choice h3 {
     font-size: 40px;
