@@ -2,171 +2,146 @@
 <html lang="lv">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>oilbergs</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/apex.css" rel="stylesheet">
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-    crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>oilbergs</title>
 
 
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-  <script>
-    window.addEventListener("load", function () {
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": {
-          "background": "#216942",
-          "text": "#b2d192"
-        },
-        "button": {
-          "background": "#afed71"
-        }
-      },
-      "theme": "edgeless",
-      "content": {
-        "message": "Šī tīmekļa vietne izmanto sīkdatnes (cookies).Turpinot lietot šo vietni, jūs piekrītat sīkdatņu izmantošanas noteikumiem.",
-        "dismiss": "Sapratu!",
-        "allow": "Atļaut cookies",
-        "link": "Uzinnāt vairāk!"
-      }
-    })
-  });
-</script>
+    <!--Styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <!--// Styles-->
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!--// Bootstrap -->
+
+    <!--Fa icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <!--// Fa icons-->
+
 </head>
 
-<body>
+<body id="home">
 
-  <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">logo</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="pages/about.html">Par mums</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/product.html">Par produktu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/contact.html">Kontakti</a>
-          </li>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="index.html">oilbergs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="img/eng-flag.png" class="img-fluid" alt="Responsive image"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="img/ru-flag.png" class="img-fluid" alt="Responsive image"></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--// Navigation -->
-
-  <!-- Header -->
-  <header>
-    <div class="jumbotron">
-      <div class="row text-center" id="jumbo">
-        <div class="col-md-12">
-          <h3 class="intro-text">Bioloģiskā ķēžu eļļa</h3>
-          <h3>Paredzēta motorzāģu, mežizstrādes tehnikas, motociklu un citu motoru
-            eļļošanai.</h3>
-          <br>
-          <button type="button" class="btn btn-dark">Vairāk!</button>
-
-
-
+        <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Sākums <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/par-mums.html">Par mums</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produkts</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Piegāde</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontakti</a>
+                </li>
+                <!--Lang icons-->
+                <li class="nav-item" id="lang-gb">
+                    <a class="nav-link" href="#"><img src="img/lang/lv.png" class="img-fluid" alt="Responsive image"></a>
+                </li>
+                <li class="nav-item" id="lang-ru">
+                    <a class="nav-link" href="#"><img src="img/lang/ru.png" class="img-fluid" alt="Responsive image"></a>
+                </li>
+                <!--// Lang icons-->
+            </ul>
         </div>
-      </div>
+    </nav>
+    <!--// Navbar-->
+
+    <!--Header-->
+    <div class="container-fluid text-center" id="header">
+        <div class="intro">
+            <h3><i class="fas fa-angle-right" style="color: #a0db8e"></i>Bioloģiskā ķēžu eļļa</h3>
+            <p>Paredzēta motorzāģu, mežizstrādes tehnikas, motociklu un citu motoru
+                eļļošanai.<i class="fas fa-angle-left" style="color: #a0db8e"></i></p>
+
+            <button type="button" class="btn btn-outline-success"><a href="#more-info">Vairāk!</a> </button>
+        </div>
     </div>
 
-  </header>
-  <!--// Header -->
 
-  <br>
-  <br>
-  <br>
+    <!--// Header-->
+    <br>
+    <br>
+    <!--Choice-->
+    <div class="container" id="choice">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="choice-overlay-1">
+                    <img src="img/img-1.png.jpg" class="img-fluid" alt="Responsive image">
+                    <div class="centered">
+                        <h3>
+                            Sikāka informācīja par produktu
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="choice-overlay-2">
+                    <img src="img/img-2.jpg" class="img-fluid" alt="Responsive image">
+                    <div class="centered">
+                        <h3>
+                            Informācīja par piegādi
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--// Choice-->
+    <!--More info-->
+    <div class="container" id="more-info">
+        <div class="row">
+            <div class="col-md-6">
+                <h4 style="font-weight: bold">Par produktu</h4>
+                <p>Bioloģiskās ķēžu eļļas priekšrocības:</p>
+                <ul>
+                    <li>Bioloģiskā ķēžu eļļa ir pilnībā izgatavota uz augu eļļas bāzes, tāpēc tā ir ļoti draudzīga
+                        apkārtējai videi un strādājošo veselībai. Tai ir ātra bioloģiska sairšana.</li>
+                    <li>Bioloģiskās ķēžu eļļas augstā kvalitāte nodrošina izcilas eļļošanas iespējās gan ziemā,
+                        gan vasarā. Tā piemērota ļoti karstiem laikapstākļiem, gan pie ļoti zemām gaisa
+                        temperatūrām</li>
+                    <li>Lai nodrošinātu izcilu bioloģiskās ķēžu eļļas kvalitāti un nodrošinātu nevainojamu
+                        saķeri ar motorzāģa ķēdi, regulāri notiek eļļas testēšana akreditētās laboratorijās.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h4>Par produktu</h4>
+                <p></p>
+            </div>
+        </div>
+    </div>
 
-  <!-- Page Content -->
-  <div class="container">
-    <!-- First Content -->
-    <div class="row" id="second-content">
-      <div class="col-lg-6">
-        <h1>Bioloģiskā ķēžu eļļa</h1>
-        <p>Paredzēta motorzāģu, mežizstrādes tehnikas, motociklu un citu motoru
-          eļļošanai.</p>
+    <footer class="page-footer font-small indigo">
         <ul>
-          <li>
-            <strong>Bootstrap v4</strong>
-          </li>
-          <li>jQuery</li>
-          <li>Font Awesome</li>
-          <li>Working contact form with validation</li>
-          <li>Unstyled page elements for easy customization</li>
+            <li>Visas tiesības aizsargātas © 2018 Oilbergs - </li>
+            <li><a href="pages/privacy/policy.html">Privātuma politika</a></li>
         </ul>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id
-          reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum
-          ducimus unde.</p>
-      </div>
-      <div class="col-lg-6">
-        <img class="img-fluid rounded" src="img/poster.jpg" alt="">
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Call to Action Section -->
-    <div class="row mb-4">
-      <div class="col-md-8">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti
-          beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-      </div>
-      <div class="col-md-4">
-        <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-      </div>
-    </div>
-
-  </div>
-  <!-- /.container -->
-
-
-  </div>
-  <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-3">
-    <div class="container">
-      <p class="m-0 text-center">Visas tiesības aizsargātas &copy; oilbergs.lv 2018</p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <!--// Bootstrap -->
-
-  <!-- Cookies -->
-
-
+    </footer>
+    <!--Bootstrap scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!--// Bootstrap scripts-->
 </body>
 
 </html>
