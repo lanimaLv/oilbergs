@@ -2,18 +2,41 @@
 <html lang="lv">
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>oilbergs</title>
 
   <!-- Bootstrap -->
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/animate.css">
-  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/font-awesome.min.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link href="css/prettyPhoto.css" rel="stylesheet" />
   <link href="css/style.css" rel="stylesheet" />
 
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#216942",
+          "text": "#b2d192"
+        },
+        "button": {
+          "background": "#afed71"
+        }
+      },
+      "content": {
+        "message": "Šī tīmekļa vietne izmanto sīkdatnes (cookies).Turpinot lietot šo vietni, jūs piekrītat sīkdatņu izmantošanas noteikumiem.",
+        "dismiss": "Piekrītu!",
+        "link": "Lasīt vairāk!"
+      }
+    })
+  });
+</script>
 </head>
 
 <body>
@@ -24,8 +47,7 @@
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
               <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+              <span class="icon-bar"></span> <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
             <div class="navbar-brand">
@@ -38,13 +60,28 @@
           <div class="navbar-collapse collapse">
             <div class="menu">
               <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation"><a href="index.html" class="active">Sākums</a></li>
-                <li role="presentation"><a href="par-mums.html">Par mums</a></li>
-                <li role="presentation"><a href="par-produktu.html">Produkts</a></li>
-                <li role="presentation"><a href="par-piegadi.html">Piegāde</a></li>
-                <li role="presentation"><a href="kontakti.html">Kontatki</a></li>
-                <li role="presentation"><a href="#">ENG</a></li>
-                <li role="presentation"><a href="#">RUS</a></li>
+                <li role="presentation">
+                  <a href="index.html" class="active">Sākums</a>
+                </li>
+                <li role="presentation">
+                  <a href="par-mums.html">Par mums</a>
+                </li>
+                <li role="presentation">
+                  <a href="par-produktu.html">Produkts</a>
+                </li>
+                <li role="presentation">
+                  <a href="par-piegadi.html">Piegāde</a>
+                </li>
+                <li role="presentation">
+                  <a href="kontakti.html">Kontatki</a>
+                </li>
+                <li role="presentation">
+                  <a href="#">ENG</a>
+                </li>
+
+                <li role="presentation">
+                  <a href="#">RUS</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -59,55 +96,54 @@
         <div class="item active" style="background-image: url(images/slider/img3.jpg)">
           <div class="container">
             <div class="row slide-margin">
-              <div class="col-sm-6 hidden-xs animation animated-item-4">
+              <div class="col-sm-12 col-md-12 col-xs-12 text-center animation animated-item-4">
                 <div class="slider-img">
-                  <h2 class="animation animated-item-1"><span>Bio</span> ķēžu eļļa</h2>
-                  <p class="animation animated-item-2">Paredzēta motorzāģu, mežizstrādes tehnikas, motociklu un citu
-                    motoru eļļošanai.</p>
-                  <a class="btn-slide animation animated-item-3" href="#">Lasīt vairāk!</a>
+                  <h2 class="animation animated-item-1">
+                    <span>Bioloģiskā</span> ķēžu eļļa
+                  </h2>
+                  <p class="animation animated-item-2" style="font-style: italic;">
+                    <b>
+                      Paredzēta motorzāģu, mežizstrādes tehnikas, motociklu un
+                      citu motoru eļļošanai.</b>
+                  </p>
+                  <a class="btn-slide animation animated-item-3" href="par-produktu.html"><b>Lasīt vairāk!</b></a>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
-        <!--/.item-->
+        <!-- /.item -->
       </div>
-      <!--/.carousel-inner-->
+      <!-- /.carousel-inner -->
     </div>
-    <!--/.carousel-->
+    <!-- /.carousel -->
   </section>
-  <!--/#main-slider-->
+  <!-- /#main-slider -->
 
   <div class="feature">
     <div class="container">
       <div class="text-center">
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
             <i class="fa fa-book"></i>
-            <h2>Full Responsive</h2>
-            <p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+            <h2>
+              Bioloģiskā ķēžu eļļa ir pilnībā izgatavota uz augu eļļas bāzes.
+            </h2>
           </div>
         </div>
-        <div class="col-md-3">
-          <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <i class="fa fa-laptop"></i>
-            <h2>Retina Ready</h2>
-            <p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
-          </div>
-        </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-            <i class="fa fa-heart-o"></i>
-            <h2>Full Responsive</h2>
-            <p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+            <i class="fa fa-cloud"></i>
+            <h2>
+              Produkts atbilst bioloģiskās ķēžu eļļas MK Nr. 1117 pielikumā
+              noteiktajām kvalitātes prasībām.
+            </h2>
           </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-            <i class="fa fa-cloud"></i>
-            <h2>Friendly Code</h2>
-            <p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+            <i class="fa fa-heart-o"></i>
+            <h2>Ausgtā kvalitāte nodrošina izcilas eļļošanas iespējas.</h2>
           </div>
         </div>
       </div>
@@ -117,56 +153,64 @@
   <div class="about">
     <div class="container">
       <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <h2>about us</h2>
-        <img src="images/6.jpg" class="img-responsive" />
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt
-          leo consectetur eget. Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget.
-          Curabitur lacinia pellentesque libero,
-          pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-        </p>
+        <div class="overlay">
+          <img src="images/6.jpg" class="img-responsive" style="max-width: 100%; float: right;" />
+        </div>
+
       </div>
 
       <div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-        <h2>Template built with Twitter Bootstrap</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt
-          leo consectetur eget. Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget.
-          Curabitur lacinia pellentesque libero,
-          pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar
-            tincidunt leo consectetur eget. Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur
-            eget. Curabitur lacinia pellentesque
-            libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-          </p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar
-            tincidunt leo consectetur eget. Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur
-            eget. Curabitur lacinia pellentesque
-            libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque </p>
+        <h2 style="padding-top: 13%"><b>Par produktu</b></h2>
+        <h4><b>Bioloģiskās ķēžu eļļas priekšrocības:</b></h4>
+        <ul style="color: black">
+          <li>Bioloģiskā ķēžu eļļa ir pilnībā
+            izgatavota uz augu eļļas bāzes, tāpēc tā ir ļoti draudzīga
+            apkārtējai videi un strādājošo veselībai. Tai ir ātra bioloģiska
+            sairšana.</li>
+          <li>Bioloģiskās ķēžu eļļas augstā
+            kvalitāte nodrošina izcilas eļļošanas iespējās gan ziemā, gan
+            vasarā. Tā piemērota ļoti karstiem laikapstākļiem, gan pie ļoti
+            zemām gaisa temperatūrām.</li>
+          <li>Lai nodrošinātu izcilu
+            bioloģiskās ķēžu eļļas kvalitāti un nodrošinātu nevainojamu saķeri
+            ar motorzāģa ķēdi, regulāri notiek eļļas testēšana akreditētās
+            laboratorijās.</li>
+        </ul>
+        <br>
+
+        <ul class="about-btns" style="display: inline-block; text-align: center">
+          <li class="btn-1" style="display: inline-block; border: 2px solid #1BBD36; padding: 10px;"><a class="btn-slide animation animated-item-3"
+              href="par-produktu.html"><b>Detalizētāk
+                par produktu</b></a></li>
+          <li style="display: inline-block; color: black; font-weight: bold; padding-left: 50px;padding-right: 50px; padding-top: 20px; padding-bottom: 20px">
+            Vai </li>
+          <li class="btn-2" style="display: inline-block; border: 2px solid #1BBD36; padding: 10px;"><a class="btn-slide animation animated-item-3"
+              href="par-produktu.html"><b>Piegāde</b></a></li>
+        </ul>
       </div>
     </div>
   </div>
-
-
 
   <section id="conatcat-info">
     <div class="container">
       <div class="row">
         <div class="col-sm-8">
           <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="pull-left">
-              <i class="fa fa-phone"></i>
-            </div>
+            <div class="pull-left"><i class="fa fa-phone"></i></div>
             <div class="media-body">
-              <h2>Have a question or need a custom quote?</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
+              <h2>Vēlies uzzināt vairāk?</h2>
+              <p>
+                Sazinies ar mums pa tālruni: +371 27123490 vai rakstot mums uz
+                e-pastu: example@example.lv
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!--/.container-->
+    <!-- /.container -->
   </section>
-  <!--/#conatcat-info-->
+  <!-- /#conatcat-info -->
 
   <footer>
     <div class="footer">
@@ -174,26 +218,34 @@
         <div class="social-icon">
           <div class="col-md-4">
             <ul class="social-network">
-              <li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-              <li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
+              <li>
+                <a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li>
+                <a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+              </li>
+              <li>
+                <a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a>
+              </li>
             </ul>
           </div>
         </div>
 
         <div class="col-md-4 col-md-offset-4">
           <div class="copyright">
-            &copy; Company Theme. All Rights Reserved.
+            &copy; OILBERGS. Visas tiesības aizsargātas.
             <div class="credits">
-              <!--
-                All the links in the footer should remain intact.
-                You can delete the links only if you purchased the pro version.
-                Licensing information: https://bootstrapmade.com/license/
-                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Company
-              -->
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+              Izstrādāja <a href="https://lanima.lv">lanima</a>
+            </div>
+            <div class="cookies">
+              <a href="privatums/privatuma-politika.html">Privātuma Politika</a>
+            </div>
           </div>
         </div>
       </div>
@@ -204,17 +256,16 @@
     </div>
   </footer>
 
-
-
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-2.1.1.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <!--
+      Include all compiled plugins (below), or include individual files as needed
+    -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.prettyPhoto.js"></script>
   <script src="js/jquery.isotope.min.js"></script>
   <script src="js/wow.min.js"></script>
   <script src="js/functions.js"></script>
-
 </body>
 
 </html>
