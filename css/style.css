@@ -671,7 +671,7 @@ ul.social-network li a {
 
 /* --- Map --- */
 .map {
-  margin-top: 5%;
+  margin-top: 10%;
   position: relative;
   margin-bottom: 40px;
 }
@@ -793,4 +793,9 @@ a.scrollup:hover {
 #breadcrumb {
   margin-top: 0;
   padding-top: 0;
+}
+
+.contact-section {
+  color: black;
+  padding: 5%;
 }
