@@ -1,0 +1,31 @@
+#first-section {
+  text-align: center;
+  padding: 5%;
+}
+.first-section-content {
+  background-image: url("images/header-img.jpg") !important;
+}
+#section-two {
+  background-color: #b4eeb4;
+}
+#section-two-text {
+  padding: 10%;
+}
+#section-two {
+  text-align: center;
+  padding: 5%;
+}
+.map-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container iframe {
+  border-radius: 100px;
+  left: 0;
+  top: 0;
+  height: 70%;
+  width: 100%;
+  position: absolute;
+}
