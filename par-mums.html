@@ -7,12 +7,22 @@
     <title>oilbergs - bioloģiskā ķēžu eļļa</title>
     <link rel="stylesheet" href="styles/style.css" />
 
+    <!--SEO-->
+    <!--//SEO-->
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!--//Custom Stylesheet-->
+
+    <!--FontAwesome-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <!--//FontAwesome-->
+
     <!--Bootstrap-->
     <link
       rel="stylesheet"
@@ -24,39 +34,31 @@
   </head>
 
   <body>
-    <!--Header-->
-    <header>
-      <!--Header img-->
-      <img
-        src="images/header-img.jpeg"
-        class="img-fluid"
-        alt="Responsive image"
-      />
-      <!--//Header img-->
-
-      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="index.html">oilbergs</a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-right">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto" style="font-weight: bold">
             <li class="nav-item active">
               <a class="nav-link" href="index.html"
-                >Sākums <span class="sr-only">(current)</span></a
-              >
+                >Sākums
+                <span class="sr-only">(current)</span>
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Par mums</a>
+              <a class="nav-link" href="par-mums.html">Par mums</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="produkts.html">Produkts</a>
@@ -86,14 +88,14 @@
             </li>
           </ul>
         </div>
-      </nav>
-    </header>
-    <!--//Header-->
+      </div>
+    </nav>
+    <!--//Navbar-->
 
     <!--Second section-->
     <section>
       <div
-        class="shadow-lg p-3 mb-5 bg-white rounded"
+        class="bg-white rounded"
         style="border-radius: 100px !important; padding: 8% !important;"
       >
         <div class="row">
@@ -102,7 +104,7 @@
               src="images/about-img.jpg"
               class="rounded"
               alt="..."
-              style="max-width: 100%; border-radius: 50px !important; box-shadow: 10px 10px 5px #f5f5f5; margin-top: 70px"
+              style="max-width: 100%; box-shadow: 10px 10px 5px #f5f5f5; margin-top: 70px"
             />
             <br />
             <h5><b>Oilbergs</b></h5>
@@ -110,45 +112,37 @@
           <div class="col-md-6 text-center">
             <br />
             <h4>
-              <b> <i class="fas fa-book-open"></i> Par mums</b>
+              <b>Par mums</b>
             </h4>
-            <ul class="list-group list-group-flush">
-              <li
-                class="list-group-item"
-                style="border-radius: 100px !important"
-              >
-                <i class="fas fa-tint"></i> Mēs esam Latvijas uzņēmums, kurš
-                dibināts Siguldas novadā!
+            <ul
+              class="list-group list-group-flush"
+              style="font-family: 'Caveat', cursive; font-size: 20px; font-weight: bold"
+            >
+              <li class="list-group-item">
+                <i class="fas fa-tint" style="color: green !important;"></i> Mēs
+                esam Latvijas uzņēmums, kurš dibināts Siguldas novadā!
               </li>
-              <li
-                class="list-group-item"
-                style="border-radius: 100px !important"
-              >
-                <i class="fas fa-tint"></i> Mūsu produktu klāstā ietilpst
-                bioloģiskā ķēžu eļļa, kas izgatavota pamatā uz augu eļļas bāzes.
+              <li class="list-group-item">
+                <i class="fas fa-tint" style="color: green !important;"></i>
+                Mūsu produktu klāstā ietilpst bioloģiskā ķēžu eļļa, kas
+                izgatavota pamatā uz augu eļļas bāzes.
               </li>
-              <li
-                class="list-group-item"
-                style="border-radius: 100px !important"
-              >
-                <i class="fas fa-tint"></i> Neskatoties uz to, ka esam
-                salīdzinoši jauns tirgus dalībnieks, gada laikā esam ieguvuši
-                vairākus sadarbības partnerus, kuri ļoti novērtē vienkāršo
-                sadarbību ar mums un elastīgos risinājumus.
+              <li class="list-group-item">
+                <i class="fas fa-tint" style="color: green !important;"></i>
+                Neskatoties uz to, ka esam salīdzinoši jauns tirgus dalībnieks,
+                gada laikā esam ieguvuši vairākus sadarbības partnerus, kuri
+                ļoti novērtē vienkāršo sadarbību ar mums un elastīgos
+                risinājumus.
               </li>
-              <li
-                class="list-group-item"
-                style="border-radius: 100px !important"
-              >
-                <i class="fas fa-tint"></i> Mūsu izcilā eļļas kvalitāte ir
-                pamats klientiem atgriezties atkal un atkal.
+              <li class="list-group-item">
+                <i class="fas fa-tint" style="color: green !important;"></i>
+                Mūsu izcilā eļļas kvalitāte ir pamats klientiem atgriezties
+                atkal un atkal.
               </li>
-              <li
-                class="list-group-item"
-                style="border-radius: 100px !important"
-              >
-                <i class="fas fa-tint"></i> Mūsu galvenās vērtības ir
-                kvalitatīvs produkts, viegla sadarbība un elastīgi risinājumi.
+              <li class="list-group-item">
+                <i class="fas fa-tint" style="color: green !important;"></i>
+                Mūsu galvenās vērtības ir kvalitatīvs produkts, viegla sadarbība
+                un elastīgi risinājumi.
               </li>
             </ul>
           </div>
@@ -157,18 +151,23 @@
     </section>
     <!--//Second section-->
 
+    <!--Fourth section-->
     <section>
-        <div class="shadow-sm p-3 mb-5 bg-white rounded" style="background-color: #f5f5f5 !important"">
-            <div class=" row">
-            <div class="col-md-12 text-center">
-                <ul style="list-style-type: none">
-                    <li><b>E-pasts: info@oilbergs.lv</b></li>
-                    <li><b>Tālrunis: +371 28632427</b></li>
-                </ul>
-            </div>
+      <div
+        class="bg-white rounded"
+        style="background-color: #f5f5f5 !important; padding-top: 10px"
+      >
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <ul style="list-style-type: none">
+              <li><b>E-pasts: info@oilbergs.lv</b></li>
+              <li><b>Tālrunis: +371 28632427</b></li>
+            </ul>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
+    <!--//Fourth section-->
 
     <!-- Footer -->
     <footer class="page-footer font-small blue">

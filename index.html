@@ -5,14 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>oilbergs - bioloģiskā ķēžu eļļa</title>
-    <link rel="stylesheet" href="styles/style.css" />
 
+    <!--SEO-->
+    <!--//SEO-->
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!--//Custom Stylesheet-->
+
+    <!--FontAwesome-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <!--//FontAwesome-->
+
     <!--Bootstrap-->
     <link
       rel="stylesheet"
@@ -21,39 +30,46 @@
       crossorigin="anonymous"
     />
     <!--//Bootstrap-->
-  </head>
-  <body>
-    <!--Header-->
-    <header>
-      
-      <!--Header img-->
-      <img
-        src="images/forest-2.jpg"
-        class="img-fluid"
-        alt="Responsive image"
-      />
-      <!--//Header img-->
 
-      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="#">oilbergs</a>
+    <!--Custom style-->
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Caveat");
+
+      .masthead {
+        height: 100vh;
+        min-height: 500px;
+        background-image: url("images/forest-4.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+    <!--//Custom style-->
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">oilbergs</a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-right">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto" style="font-weight: bold">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Sākums <span class="sr-only">(current)</span></a
-              >
+              <a class="nav-link" href="index.html"
+                >Sākums
+                <span class="sr-only">(current)</span>
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="par-mums.html">Par mums</a>
@@ -86,67 +102,95 @@
             </li>
           </ul>
         </div>
-      </nav>
-    </header>
-    <!--//Header-->
+      </div>
+    </nav>
+    <!--//Navbar-->
 
-    <!--First section-->
-    <section id="first-section" style="background-color: #f5f5f5 !important">
-      <div class="first-section-content">
-        <div
-          class="shadow-lg p-3 mb-5 bg-white rounded"
-          style="padding: 5% !important;"
-        >
-          <h2 style="padding: 10px !important"><b><i class="far fa-hand-point-right"></i> Bioloģiskā ķēžu eļļa</b></h2>
-          <p style="font-size: 20px">
-            <i class="fas fa-check"></i> Motorzāģu, mežizstrādes tehnikas, motociklu un citu motoru eļļošanai
-          </p>
-          <a class="btn btn-outline-success" href="iegade.html" role="button">Pasūtīt!</a>
+    <!-- Page intro -->
+    <header class="masthead">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <div
+              class="shadow-lg p-2 mb-3 bg-white"
+              style="opacity: 0.8; max-width: 80%; padding-top: 50px !important; padding-bottom: 60px !important; padding-left: 50px !important; padding-right: 50px !important; justify-content: center !important; margin-top: 50px !important; margin-left: 10%;"
+            >
+              <h3 style="padding: 5px !important; opacity: 5 !important;">
+                <b>BIOLOĢISKĀ ĶĒŽU EĻĻA</b>
+              </h3>
+              <p
+                style="font-size: 25px; opacity: 5 !important; font-family: 'Caveat', cursive;"
+              >
+                <b
+                  >Motorzāģu, mežizstrādes tehnikas, motociklu un citu motoru
+                  eļļošanai.</b
+                >
+              </p>
+              <a
+                class="btn btn-outline-success"
+                href="iegade.html"
+                role="button"
+                style="opacity: 5 !important;"
+                ><b>Pasūtīt!</b></a
+              >
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-    <!--//First section-->
+    </header>
+    <!--// Page intro -->
 
     <!--Second section-->
-    <section id="section-two">
+    <section id="section-two" style="background-color: #d39e72 !important">
       <div
-        class="shadow-lg p-3 mb-5 bg-white rounded"
-        style="border-radius: 100px !important; padding: 8% !important;"
+        class="bg-white rounded"
+        style="padding: 8% !important; background-color: #FFF4E0 !important"
       >
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 text-center">
             <img
               src="images/section-two-img.JPG"
               class="rounded"
               alt="..."
-              style="max-width: 60%; border-radius: 150px !important; box-shadow: 10px 10px 5px #f5f5f5;"
+              style="max-width: 60%; border-radius: 150px !important; margin-top: 50px"
             />
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 text-center">
             <h4>
-              <b><i class="fab fa-cloudsmith"></i> Par produktu</b>
+              <br />
+              <b>Par produktu</b>
+              <br />
             </h4>
-            <ul class="list-group list-group-flush">
+            <ul
+              class="list-group list-group-flush"
+              style="font-size: 25px; font-family: 'Caveat', cursive;"
+            >
               <li
-                class="list-group-item"
-                style="border-radius: 100px !important"
+                class=" list-group-item"
+                style="background-color: #FFF4E0 !important"
               >
-                <i class="fas fa-tint"></i> Bioloģiskā ķēžu eļļa ir pilnībā
-                izgatavota uz augu eļļas bāzes.
+                <i class="fas fa-tint" style="color: green !important;"></i>
+                <b
+                  >Bioloģiskā ķēžu eļļa ir pilnībā izgatavota uz augu eļļas
+                  bāzes.</b
+                >
               </li>
               <li
                 class="list-group-item"
-                style="border-radius: 100px !important"
+                style="background-color: #FFF4E0 !important"
               >
-                <i class="fas fa-tint"></i> Produkts atbilst bioloģiskās ķēžu
-                eļļas MK Nr. 1117 pielikumā noteiktajām kvalitātes prasībām.
+                <i class="fas fa-tint" style="color: green !important;"></i>
+                <b
+                  >Produkts atbilst bioloģiskās ķēžu eļļas MK Nr. 1117 pielikumā
+                  noteiktajām kvalitātes prasībām.</b
+                >
               </li>
               <li
                 class="list-group-item"
-                style="border-radius: 100px !important"
+                style="background-color: #FFF4E0 !important"
               >
-                <i class="fas fa-tint"></i> Ausgtā kvalitāte nodrošina izcilas
-                eļļošanas iespējas.
+                <i class="fas fa-tint" style="color: green !important;"></i>
+                <b>Ausgtā kvalitāte nodrošina izcilas eļļošanas iespējas.</b>
               </li>
             </ul>
           </div>
@@ -158,18 +202,34 @@
     <!--Third section-->
     <section>
       <div
-        class="shadow-lg p-3 mb-5 bg-white rounded"
-        style="border-radius: 100px !important;"
+        class="bg-white rounded"
+        style="background-color: #e6ffe6 !important"
       >
         <div class="row" style="padding: 5% !important">
-          <div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-            <img src="images/rapeseed.jpg" alt="..." class="img-thumbnail" />
+          <div class="col-md-4 text-center">
+            <img
+              src="images/rapeseed.jpg"
+              class="rounded"
+              alt="rapeseed"
+              style="max-width: 100%; padding-bottom: 20px"
+            />
           </div>
-          <div class="col-md-4 shadow-sm p-3 mb-5 bg-white rounded">
-            <img src="images/chainsaw.jpg" alt="..." class="img-thumbnail" />
+          <div class="col-md-4 text-center">
+            <img
+              src="images/chainsaw.jpg"
+              class="rounded"
+              alt="chainsaw"
+              style="max-width: 100%; padding-bottom: 20px"
+            />
+            <br />
           </div>
-          <div class="col-md-4 shadow-lg p-3 mb-5 bg-white rounded">
-            <img src="images/logs.jpg" alt="..." class="img-thumbnail" />
+          <div class="col-md-4 text-center">
+            <img
+              src="images/logs.jpg"
+              class="rounded"
+              alt="logs"
+              style="max-width: 100%;"
+            />
           </div>
         </div>
       </div>
@@ -178,7 +238,10 @@
 
     <!--Fourth section-->
     <section>
-      <div class="shadow-sm p-3 mb-5 bg-white rounded" style="background-color: #f5f5f5 !important"">
+      <div
+        class="bg-white rounded"
+        style="background-color: #f5f5f5 !important; padding-top: 10px"
+      >
         <div class="row">
           <div class="col-md-12 text-center">
             <ul style="list-style-type: none">
@@ -193,14 +256,14 @@
 
     <!-- Footer -->
     <footer class="page-footer font-small blue">
-    
       <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">Copyright © 2019 Oilbergs.lv | Privātuma Politika
+      <div class="footer-copyright text-center py-3">
+        Copyright © 2019 Oilbergs.lv | Privātuma Politika
       </div>
       <!-- Copyright -->
-    
     </footer>
     <!-- Footer -->
+
     <!--Js-->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
