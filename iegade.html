@@ -7,12 +7,22 @@
     <title>oilbergs - bioloģiskā ķēžu eļļa</title>
     <link rel="stylesheet" href="styles/style.css" />
 
+    <!--SEO-->
+    <!--//SEO-->
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="styles/style.css" />
+    <!--//Custom Stylesheet-->
+
+    <!--FontAwesome-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
       integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
       crossorigin="anonymous"
     />
+    <!--//FontAwesome-->
+
     <!--Bootstrap-->
     <link
       rel="stylesheet"
@@ -24,45 +34,37 @@
   </head>
 
   <body>
-    <!--Header-->
-    <header>
-      <!--Header img-->
-      <img
-        src="images/header-img.jpeg"
-        class="img-fluid"
-        alt="Responsive image"
-      />
-      <!--//Header img-->
-
-      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="index.html">oilbergs</a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-right">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto" style="font-weight: bold">
             <li class="nav-item active">
               <a class="nav-link" href="index.html"
-                >Sākums <span class="sr-only">(current)</span></a
-              >
+                >Sākums
+                <span class="sr-only">(current)</span>
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="par-mums.html">Par mums</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="produkts.html">Produkts</a>
+              <a class="nav-link" href="#">Produkts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Iegāde</a>
+              <a class="nav-link" href="iegade.html">Iegāde</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="kontakti.html">Kontakti</a>
@@ -80,25 +82,24 @@
                 Lv
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">ENG</a>
-                <a class="dropdown-item" href="#">RU</a>
+                <a class="dropdown-item" href="#">Eng</a>
+                <a class="dropdown-item" href="#">Ru</a>
               </div>
             </li>
           </ul>
         </div>
-      </nav>
-    </header>
-    <!--//Header-->
+      </div>
+    </nav>
+    <!--//Navbar-->
 
     <!--Second section-->
     <section>
-      <div
-        class="shadow-lg p-3 mb-5 bg-white rounded"
-        style="border-radius: 100px !important; padding: 8% !important;"
-      >
+      <div class="bg-white rounded" style="padding: 8% !important;">
         <div class="row">
           <div class="col-md-6 text-center">
-            <h4><b><i class="fas fa-cubes"></i> Iegāde</b></h4>
+            <h4>
+              <b><i class="fas fa-cubes"></i> Iegāde</b>
+            </h4>
             <br />
             <ul class="list-group list-group-flush">
               <li
@@ -122,18 +123,18 @@
             </ul>
           </div>
           <div class="col-md-6 text-center">
-            <i
-              class="fas fa-10x fa-truck"
-              style="margin-top: 40px;"
-            ></i>
+            <i class="fas fa-10x fa-truck" style="margin-top: 40px;"></i>
           </div>
         </div>
         <br />
         <br />
         <!--Row 2-->
         <div class="row">
-          <div class="col-md-12">
-              <h3>Pasūti preci aizpildot pasūtījuma formu!</h3>
+          <div
+            class="col-md-6 text-center"
+            style="margin-left: 25%; margin-right: 25%"
+          >
+            <h3>Pasūti preci aizpildot pasūtījuma formu!</h3>
             <form>
               <div class="form-group">
                 <label for="exampleInputEmail1">Vārds Uzvārds</label>
@@ -169,15 +170,15 @@
                 aria-describedby="emailHelp"
                 placeholder=""
               />
-            <label for="comment">Pasūtijuma teksts</label>
-            <textarea class="form-control" rows="5" id="comment"></textarea>
-              </div>
-              <div class="row">
-                  <div class="col-md-12 text-center">
-                        <button type="submit" class="btn btn-outline-success" style="margin-left: 50px; margin-top: 20px">Pasūtīt!</button>
-                  </div>
-              </div>
-            
+              <label for="comment">Pasūtijuma teksts</label>
+              <textarea class="form-control" rows="5" id="comment"></textarea>
+              <button
+                type="submit"
+                class="btn btn-outline-success"
+                style="margin-top: 20px"
+              >
+                Pasūtīt!
+              </button>
             </form>
           </div>
         </div>
