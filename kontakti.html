@@ -24,36 +24,28 @@
   </head>
 
   <body>
-    <!--Header-->
-    <header>
-      <!--Header img-->
-      <img
-        src="images/header-img.jpeg"
-        class="img-fluid"
-        alt="Responsive image"
-      />
-      <!--//Header img-->
-
-      <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+      <div class="container">
         <a class="navbar-brand" href="index.html">oilbergs</a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-right">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto" style="font-weight: bold">
             <li class="nav-item active">
               <a class="nav-link" href="index.html"
-                >Sākums <span class="sr-only">(current)</span></a
-              >
+                >Sākums
+                <span class="sr-only">(current)</span>
+              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="par-mums.html">Par mums</a>
@@ -86,15 +78,15 @@
             </li>
           </ul>
         </div>
-      </nav>
-    </header>
-    <!--//Header-->
+      </div>
+    </nav>
+    <!--//Navbar-->
 
     <!--Second section-->
-    <section>
+    <section style="background-color: #f5f5f5 !important; padding-bottom: 60px">
       <div
-        class="shadow-lg p-3 mb-5 bg-white rounded"
-        style="border-radius: 100px !important; padding: 5% !important;"
+        class="bg-white rounded"
+        style="padding-top: 90px; background-color: #f5f5f5 !important"
       >
         <div class="row">
           <div class="col-md-6 text-center" style="margin-top: 30px">
@@ -120,13 +112,11 @@
           </div>
           <div class="col-md-6">
             <!--Google map-->
-            <div
-              id="map-container-google-1"
-              class="z-depth-1-half map-container"
-              style="height: 500px"
-            >
+            <div class="map-responsive">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2170.726274861286!2d24.844309715393354!3d57.03910909951942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e9489aaaaaaaab%3A0xaf1c5b0ff1130e33!2zS8S8YXZrYWxuaSAsIFpT!5e0!3m2!1slv!2slv!4v1550012139248"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125883.41536417829!2d24.70663195224599!3d57.053701662069315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e9489aaaaaaaab%3A0xaf1c5b0ff1130e33!2zS8S8YXZrYWxuaSAsIFpT!5e0!3m2!1slv!2slv!4v1550094850159"
+                width="500"
+                height="450"
                 frameborder="0"
                 style="border:0"
                 allowfullscreen
