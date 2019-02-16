@@ -14,3 +14,11 @@
   width: 100%;
   position: absolute;
 }
+input:focus {
+  border-color: #5cb85c !important;
+  box-shadow: 0 0 5px #5cb85c !important;
+}
+textarea:focus {
+  border-color: #5cb85c !important;
+  box-shadow: 0 0 5px #5cb85c !important;
+}
