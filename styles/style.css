@@ -2,6 +2,7 @@
 
 /*NavBar*/
 nav {
+  max-width: 100%;
 }
 /*NavBar*/
 input:focus {
@@ -36,11 +37,14 @@ a {
   padding-bottom: 5%;
   padding-top: 6rem;
 }
+.contact-section ul {
+  text-align: center !important;
+  justify-content: center !important;
+}
 #contact-text {
   margin-top: 2%;
   text-align: center;
   justify-content: center;
-  padding-right: 4rem;
 }
 .map-responsive {
   margin-right: 1%;
