@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Caveat");
 
 /*NavBar*/
-nav {
-  max-width: 100%;
-}
+
 /*NavBar*/
 input:focus {
   border-color: #5cb85c !important;
