@@ -21,6 +21,34 @@
       crossorigin="anonymous"
     />
     <!--//Bootstrap-->
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+      window.addEventListener("load", function() {
+        window.cookieconsent.initialise({
+          palette: {
+            popup: {
+              background: "#216942",
+              text: "#b2d192"
+            },
+            button: {
+              background: "#afed71"
+            }
+          },
+          content: {
+            message:
+              "Šī tīmekļa vietne izmanto sīkdatnes (cookies).Turpinot lietot šo vietni, jūs piekrītat sīkdatņu izmantošanas noteikumiem.",
+            dismiss: "Piekrītu!",
+            link: "Lasīt vairāk!"
+          }
+        });
+      });
+    </script>
   </head>
 
   <body>
@@ -159,7 +187,10 @@
       <!-- Copyright -->
       <div class="row">
         <div class="col-md-12 text-center" style="padding: 1%">
-          Copyright © 2019 Oilbergs.lv | Privātuma Politika
+          Copyright © 2019 Oilbergs.lv |
+          <a href="privatums/privatuma-politika.html" class="privacy-a"
+            >Privātuma Politika</a
+          >
         </div>
       </div>
       <!-- Copyright -->
