@@ -1,19 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Caveat");
-.map-responsive {
-  margin-right: 3%;
-  margin-left: 3%;
-  overflow: hidden;
-  padding-bottom: 56.25%;
-  position: relative;
-  height: 0;
+
+/*NavBar*/
+nav {
 }
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-}
+/*NavBar*/
 input:focus {
   border-color: #5cb85c !important;
   box-shadow: 0 0 5px #5cb85c !important;
@@ -39,3 +29,32 @@ a {
   background: #55acee;
   color: white;
 }
+/*Contact*/
+.contact-section {
+  background-color: #f5f5f5 !important;
+  overflow: hidden !important;
+  padding-bottom: 10%;
+  padding-top: 8rem;
+}
+#contact-text {
+  margin-top: 2%;
+  text-align: center;
+  justify-content: center;
+}
+.map-responsive {
+  margin-right: 1%;
+  margin-left: 1%;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*//Contact*/
