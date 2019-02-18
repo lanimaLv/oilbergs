@@ -96,8 +96,9 @@ textarea:focus {
 
 /* Privacy Section */
 .privacy-section {
-  margin-top: 5%;
+  margin-top: 3%;
   padding: 5%;
+  background-color: #dddddd;
 }
 .privacy-links {
   text-decoration: none;
