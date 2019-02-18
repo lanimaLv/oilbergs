@@ -16,8 +16,12 @@ a {
   text-decoration: none;
   color: black;
 }
+.fab {
+  padding: 0.5rem;
+}
 .fab:hover {
   opacity: 0.7;
+  text-decoration: none;
 }
 
 .fab-facebook {
@@ -66,7 +70,6 @@ a {
 @media only screen and (max-width: 450px) {
   #contact-text {
     padding-right: 15%;
-    color: green;
   }
 }
 /*//Contact*/
