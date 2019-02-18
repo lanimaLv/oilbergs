@@ -95,6 +95,7 @@ textarea:focus {
 .privacy-links {
   text-decoration: none;
   color: #008000;
+  overflow: hidden;
 }
 .privacy-a {
   text-decoration: none;
