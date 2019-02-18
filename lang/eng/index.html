@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>oilbergs - par mums</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <title>oilbergs - organic chain oil</title>
 
     <!--SEO-->
     <!--//SEO-->
@@ -31,6 +30,21 @@
       crossorigin="anonymous"
     />
     <!--//Bootstrap-->
+
+    <!--Custom style-->
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Caveat");
+
+      .masthead {
+        height: 100vh;
+        min-height: 500px;
+        background-image: url("images/forest-4.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+    </style>
+    <!--//Custom style-->
 
     <link
       rel="stylesheet"
@@ -88,21 +102,21 @@
         >
           <li class="nav-item active">
             <a class="nav-link" href="index.html"
-              >Sākums
+              >Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Par mums</a>
+            <a class="nav-link" href="par-mums.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="produkts.html">Produkts</a>
+            <a class="nav-link" href="produkts.html">Product</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="iegade.html">Iegāde</a>
+            <a class="nav-link" href="iegade.html">Acquisition</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="kontakti.html">Kontakti</a>
+            <a class="nav-link" href="kontakti.html">Contact</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -114,15 +128,15 @@
               aria-haspopup="true"
               aria-expanded="false"
             >
-              LV
+              ENG
             </a>
             <div
               class="dropdown-menu"
               aria-labelledby="navbarDropdown"
               style="max-width: 5px;"
             >
-              <a class="dropdown-item" href="lang/eng/index.html">ENG</a>
-              <a class="dropdown-item" href="lang/ru/index.html">RU</a>
+              <a class="dropdown-item" href="../../index.html">LV</a>
+              <a class="dropdown-item" href="../ru/index.html">RU</a>
             </div>
           </li>
         </ul>
@@ -130,61 +144,89 @@
     </nav>
     <!--//Navbar-->
 
+    <!-- Page intro -->
+    <header class="masthead" style="overflow: hidden !important">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <div
+              class="shadow-lg p-2 mb-3 bg-white"
+              style="opacity: 0.8; max-width: 80%; padding-top: 50px !important; padding-bottom: 60px !important; padding-left: 50px !important; padding-right: 50px !important; justify-content: center !important; margin-top: 50px !important; margin-left: 10%;"
+            >
+              <h3 style="padding: 5px !important; opacity: 5 !important;">
+                <b>BIOLOGICAL CHANCE OILS</b>
+              </h3>
+              <p
+                style="font-size: 25px; opacity: 5 !important; font-family: 'Caveat', cursive;"
+              >
+                <b
+                  >Chain saws, logging machines, motorcycles and other engines
+                  for lubrication.</b
+                >
+              </p>
+              <a
+                class="btn btn-outline-success"
+                href="iegade.html"
+                role="button"
+                style="opacity: 5 !important;"
+                ><b>ORDER</b></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--// Page intro -->
+
     <!--Second section-->
     <section
-      style="background-color: #cbbeb5 !important; overflow: hidden !important"
+      id="section-two"
+      style="background-color: #d39e72 !important; overflow: hidden !important"
     >
       <div
         class="bg-white rounded"
-        style="padding: 8% !important; background-color: #e0d8d2 !important"
+        style="padding: 8% !important; background-color: #FFF4E0 !important"
       >
         <div class="row">
           <div class="col-md-6 text-center">
             <img
-              src="images/about-img.jpg"
-              class="rounded"
+              src="images/section-two-img.JPG"
+              class="rounded-circle"
               alt="..."
-              style="max-width: 100%; box-shadow: 10px 10px 5px gray; margin-top: 70px"
+              style="max-width: 60%; margin-top: 5%"
             />
-            <br />
           </div>
           <div class="col-md-6 text-center">
-            <br />
             <h4>
-              <b>Par mums</b>
+              <br />
+              <b>About product</b>
+              <br />
             </h4>
-            <ul class="list-group list-group-flush" style="font-size: 20px;">
+            <ul
+              class="list-group list-group-flush"
+              style="font-size: 25px; font-family: 'Caveat', cursive;"
+            >
               <li
-                class="list-group-item"
-                style="background-color: #e0d8d2 !important"
+                class=" list-group-item"
+                style="background-color: #FFF4E0 !important"
               >
-                <i class="fas fa-tint" style="color: green !important;"></i> SIA
-                "Oilbergs" ir Latvijas uzņēmums, kurš dibināts Siguldas novadā.
+                <i class="fas fa-tint" style="color: green !important;"></i>
+                Biological chain oil is made entirely on a plant oil basis.
               </li>
               <li
                 class="list-group-item"
-                style="background-color: #e0d8d2 !important"
+                style="background-color: #FFF4E0 !important"
               >
                 <i class="fas fa-tint" style="color: green !important;"></i>
-                Mēs piedāvājam augstas kvalitātes bioloģisko ķēžu eļļu, ko
-                izmanto visa gada garumā.
+                High quality provides excellent lubrication.
               </li>
               <li
                 class="list-group-item"
-                style="background-color: #e0d8d2 !important"
+                style="background-color: #FFF4E0 !important"
               >
                 <i class="fas fa-tint" style="color: green !important;"></i>
-                Savos risinājumos esam elastīgi un ražojam dažādas viskozitātes
-                eļļu, lai mūsu klients var izvēlēties sev atbilstošāko.
-              </li>
-              <li
-                class="list-group-item"
-                style="background-color: #e0d8d2 !important"
-              >
-                <i class="fas fa-tint" style="color: green !important;"></i>
-                Mūsu galvenās vērtības ir kvalitatīvs produkts, elastīgi
-                risinājumi un apmierināti klienti, tāpēc garantējam lielisku
-                savstarpēju sadarbību.
+                Produkts atbilst bioloģiskās ķēžu eļļas MK Nr. 1117 pielikumā
+                noteiktajām kvalitātes prasībām.
               </li>
             </ul>
           </div>
@@ -192,6 +234,43 @@
       </div>
     </section>
     <!--//Second section-->
+
+    <!--Third section-->
+    <section style="overflow: hidden !important">
+      <div
+        class="bg-white rounded"
+        style="background-color: #e6ffe6 !important"
+      >
+        <div class="row" style="padding: 5% !important">
+          <div class="col-md-4 text-center">
+            <img
+              src="images/rapeseed.jpg"
+              class="rounded"
+              alt="rapeseed"
+              style="max-width: 100%; padding-bottom: 20px"
+            />
+          </div>
+          <div class="col-md-4 text-center">
+            <img
+              src="images/chainsaw.jpg"
+              class="rounded"
+              alt="chainsaw"
+              style="max-width: 100%; padding-bottom: 20px"
+            />
+            <br />
+          </div>
+          <div class="col-md-4 text-center">
+            <img
+              src="images/logs.jpg"
+              class="rounded"
+              alt="logs"
+              style="max-width: 100%;"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--//Third section-->
 
     <!--Fourth section-->
     <section style="overflow: hidden !important">
@@ -202,8 +281,14 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <ul style="list-style-type: none">
-              <li><b>E-pasts: info@oilbergs.lv</b></li>
-              <li><b>Tālrunis: +371 28632427</b></li>
+              <li style="display: inline; text-decoration: none">
+                <a href="#" class="fab fa-2x fa-facebook-f" id="facebook"></a>
+              </li>
+              <li style="display: inline">
+                <a href="#" class="fab fa-2x fa-twitter" id="twitter"></a>
+              </li>
+              <li>E-mail: info@oilbergs.com</li>
+              <li>Phone: +371 28632427</li>
             </ul>
           </div>
         </div>
@@ -216,15 +301,16 @@
       <!-- Copyright -->
       <div class="row">
         <div class="col-md-12 text-center" style="padding: 20px">
-          Copyright © 2019 Oilbergs.lv |
+          Copyright © 2019 Oilbergs.com |
           <a href="privatums/privatuma-politika.html" class="privacy-a"
-            >Privātuma Politika</a
+            >Privacy Policy</a
           >
         </div>
       </div>
       <!-- Copyright -->
     </footer>
     <!-- Footer -->
+
     <!--Js-->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
