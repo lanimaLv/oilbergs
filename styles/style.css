@@ -63,7 +63,7 @@ a {
 .privacy-a {
   text-decoration: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contact-text {
     padding-right: 10%;
     color: red;
