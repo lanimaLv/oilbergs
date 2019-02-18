@@ -65,8 +65,8 @@ a {
 }
 @media only screen and (max-width: 450px) {
   #contact-text {
-    padding-right: 10%;
-    color: red;
+    padding-right: 15%;
+    color: green;
   }
 }
 /*//Contact*/
