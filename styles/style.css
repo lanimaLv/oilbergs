@@ -12,14 +12,6 @@ textarea:focus {
   box-shadow: 0 0 5px #5cb85c !important;
 }
 
-.privacy-a {
-  text-decoration: none;
-  color: black;
-}
-.privacy-a:hover {
-  text-decoration: none;
-  color: #666666;
-}
 /* Product Section */
 .product-section {
   overflow: hidden !important;
@@ -103,6 +95,14 @@ textarea:focus {
 .privacy-links {
   text-decoration: none;
   color: #008000;
+}
+.privacy-a {
+  text-decoration: none;
+  color: black;
+}
+.privacy-a:hover {
+  text-decoration: none;
+  color: #666666;
 }
 @media only screen and (max-width: 450px) {
   .privacy-section {

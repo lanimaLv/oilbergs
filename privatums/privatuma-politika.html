@@ -27,34 +27,12 @@
       type="text/css"
       href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"
     />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-    <script>
-      window.addEventListener("load", function() {
-        window.cookieconsent.initialise({
-          palette: {
-            popup: {
-              background: "#216942",
-              text: "#b2d192"
-            },
-            button: {
-              background: "#afed71"
-            }
-          },
-          content: {
-            message:
-              "Šī tīmekļa vietne izmanto sīkdatnes (cookies).Turpinot lietot šo vietni, jūs piekrītat sīkdatņu izmantošanas noteikumiem.",
-            dismiss: "Piekrītu!",
-            link: "Lasīt vairāk!"
-          }
-        });
-      });
-    </script>
   </head>
 
   <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
-      <a class="navbar-brand" href="index.html"
+      <a class="navbar-brand" href="../index.html"
         ><img
           src="../images/logo-web.jpg"
           alt=""
@@ -77,22 +55,22 @@
           style="font-weight: bold; padding-right: 20px"
         >
           <li class="nav-item active">
-            <a class="nav-link" href="index.html"
+            <a class="nav-link" href="../index.html"
               >Sākums
               <span class="sr-only">(current)</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="par-mums.html">Par mums</a>
+            <a class="nav-link" href="../par-mums.html">Par mums</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Produkts</a>
+            <a class="nav-link" href="../produkts.html">Produkts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="iegade.html">Iegāde</a>
+            <a class="nav-link" href="../iegade.html">Iegāde</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="kontakti.html">Kontakti</a>
+            <a class="nav-link" href="../kontakti.html">Kontakti</a>
           </li>
           <li class="nav-item dropdown">
             <a
@@ -211,6 +189,28 @@
     <!-- Footer -->
 
     <!--Js-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+      window.addEventListener("load", function() {
+        window.cookieconsent.initialise({
+          palette: {
+            popup: {
+              background: "#216942",
+              text: "#b2d192"
+            },
+            button: {
+              background: "#afed71"
+            }
+          },
+          content: {
+            message:
+              "Šī tīmekļa vietne izmanto sīkdatnes (cookies).Turpinot lietot šo vietni, jūs piekrītat sīkdatņu izmantošanas noteikumiem.",
+            dismiss: "Piekrītu!",
+            link: "Lasīt vairāk!"
+          }
+        });
+      });
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
