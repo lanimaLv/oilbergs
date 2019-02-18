@@ -28,6 +28,7 @@ textarea:focus {
 /*Soc Icons*/
 .fab {
   padding: 0.5rem;
+  color: #333333;
 }
 .fab:hover {
   opacity: 0.7;
@@ -91,11 +92,19 @@ textarea:focus {
   margin-top: 3%;
   padding: 5%;
   background-color: #dddddd;
+  overflow: hidden;
 }
 .privacy-links {
   text-decoration: none;
   color: #008000;
   overflow: hidden;
+  max-width: 100%;
+}
+.privacy-links:hover {
+  text-decoration: none;
+  color: #008000;
+  overflow: hidden;
+  max-width: 100%;
 }
 .privacy-a {
   text-decoration: none;
