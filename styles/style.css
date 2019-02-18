@@ -16,6 +16,20 @@ a {
   text-decoration: none;
   color: black;
 }
+/* Product Section */
+.product-section {
+  overflow: hidden !important;
+  padding: 5% !important;
+  margin-top: 30px;
+  background-color: #fff4e0 !important;
+}
+@media only screen and (max-width: 450px) {
+  .product-section {
+    margin-top: 15%;
+  }
+}
+/* //Product Section */
+/*Soc Icons*/
 .fab {
   padding: 0.5rem;
 }
@@ -33,6 +47,8 @@ a {
   background: #55acee;
   color: white;
 }
+
+/*// Soc Icons*/
 /*Contact*/
 .contact-section {
   background-color: #f5f5f5 !important;
