@@ -87,6 +87,12 @@ textarea:focus {
 }
 /*//Contact*/
 
+/* Footer */
+.footer {
+  padding: 20px;
+}
+/* // Footer */
+
 /* Privacy Section */
 .privacy-section {
   margin-top: 3%;
