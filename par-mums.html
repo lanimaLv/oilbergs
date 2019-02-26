@@ -67,7 +67,8 @@
       <a class="navbar-brand" href="index.html"
         ><img
           src="images/logo-web.jpg"
-          alt=""
+          class="lazyload"
+          alt="Oilbergs Logo"
           style="max-width: 90px; padding: 0; margin: 0"
       /></a>
       <button
@@ -142,8 +143,8 @@
           <div class="col-md-6 text-center">
             <img
               src="images/about-img.jpg"
-              class="rounded"
-              alt="..."
+              class="Lazyload"
+              alt="Rapeseed"
               style="max-width: 100%; box-shadow: 10px 10px 5px gray; margin-top: 70px"
             />
             <br />
@@ -202,8 +203,22 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <ul style="list-style-type: none">
-              <li><b>E-pasts: info@oilbergs.lv</b></li>
-              <li><b>Tālrunis: +371 28632427</b></li>
+              <li style="display: inline; text-decoration: none">
+                <a
+                  href="#"
+                  class="fab fa-2x fa-facebook-f lazyload"
+                  id="facebook"
+                ></a>
+              </li>
+              <li style="display: inline">
+                <a
+                  href="#"
+                  class="fab fa-2x fa-twitter lazyload"
+                  id="twitter"
+                ></a>
+              </li>
+              <li>E-pasts: info@oilbergs.lv</li>
+              <li>Tālrunis: +371 28632427</li>
             </ul>
           </div>
         </div>
@@ -238,6 +253,9 @@
       integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Lazyload -->
+    <script src="lazysizes.min.js" async=""></script>
     <!--//Js-->
   </body>
 </html>
