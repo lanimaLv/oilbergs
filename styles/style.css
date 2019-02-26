@@ -91,6 +91,11 @@ textarea:focus {
 .footer {
   padding: 20px;
 }
+@media only screen and (max-width: 450px) {
+  .footer {
+    padding: 10px;
+  }
+}
 /* // Footer */
 
 /* Privacy Section */
