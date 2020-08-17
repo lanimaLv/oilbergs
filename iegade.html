@@ -129,6 +129,10 @@
                   <textarea class="form-control" name="message" rows="5" id="comment"
                     placeholder="Pasūtījuma teksts"></textarea>
                 </div>
+                <div class="form-check mb-4">
+                  <input type="checkbox" class="form-check-input" name="checkbox-one" id="exampleCheck1" required>
+                  <label class="form-check-label" for="exampleCheck1">Piekrītu personu datu apstrādei!</label>
+                </div>
                 <button type="submit" class="btn btn-outline-success">
                   <b>PASŪTĪT</b>
                 </button>
@@ -166,6 +170,18 @@
   </footer>
   <!-- // Footer -->
 
+  <div class="container text-center cookie-container">
+    <p>
+      Šī tīmekļa vietne izmanto sīkdatnes (cookies).Turpinot lietot šo vietni, tu piekrīti sīkdatņu izmantošanas
+      noteikumiem.
+      <a href="./privatums/privatuma-politika.html">Vairāk</a>
+    </p>
+
+    <button class="cookie-btn btn btn-success">
+      Labi
+    </button>
+  </div>
+
   <!--Js-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -180,6 +196,20 @@
   <!-- Lazyload -->
   <script src="lazysizes.min.js" async=""></script>
   <!--//Js-->
+
+  <script src="./app.js"></script>
+
+  <script>
+    const checkboxOne = document.querySelector("input[name=checkbox-one]");
+
+    checkboxOne.addEventListener("change", function () {
+      if (this.checked) {
+        localStorage.setItem("Datu apstrāde", "Piekrītu");
+      } else {
+        alert("Neapstiprinot datu apstrādi, mēs nevarēsim ar jums sazināties!");
+      }
+    });
+  </script>
 </body>
 
 </html>
