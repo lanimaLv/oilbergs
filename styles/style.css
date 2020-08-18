@@ -150,6 +150,7 @@ textarea:focus {
   align-items: center;
 }
 .cookie-container {
+  width: 100%;
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -163,7 +164,6 @@ textarea:focus {
   color: #f5f6fa;
   padding: 20px 0;
   box-shadow: 0 -2px 16px rgba(47, 54, 64, 0.39);
-
   transition: 400ms;
 }
 
