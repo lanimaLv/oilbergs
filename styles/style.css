@@ -16,6 +16,7 @@ textarea:focus {
 }
 
 #section-two-wrapper {
+  max-width: 100%;
   padding: 10em 4em;
   align-items: center !important;
   justify-content: center !important;

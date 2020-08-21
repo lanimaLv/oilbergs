@@ -7,7 +7,7 @@ cookieButton.addEventListener("click", () => {
 });
 
 setTimeout(() => {
-  if (!localStorage.getItem("cookieBannerDisplayed")) {
+  if (!localStorage.getItem("Piekrītu")) {
     cookieContainer.classList.add("active");
   }
 }, 2000);
